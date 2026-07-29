@@ -1,0 +1,52 @@
+{
+  "veri_satir_sayisi": 12330,
+  "veri_sutun_sayisi": 18,
+  "pozitif_oran": 0.15474452554744525,
+  "egitim_boyutu": 9864,
+  "test_boyutu": 2466,
+  "en_iyi_model": "XGBoost",
+  "en_yuksek_korelasyon_degisken": "PageValues",
+  "en_yuksek_korelasyon_deger": 0.4925692952512058,
+  "huni_asamalari": {
+    "Toplam Ziyaret": 12330,
+    "Ürün Sayfası Gezinme": 12292,
+    "Değerli Sayfa Görüntüleme": 2730,
+    "Satın Alma": 1908
+  },
+  "ziyaretci_donusum": {
+    "New_Visitor": 24.911452184179456,
+    "Other": 18.823529411764707,
+    "Returning_Visitor": 13.93232868922377
+  },
+  "en_yuksek_donusum_ayi": "Nov",
+  "en_yuksek_donusum_ay_orani": 25.350233488992664,
+  "en_dusuk_donusum_ayi": "Feb",
+  "en_dusuk_donusum_ay_orani": 1.6304347826086956,
+  "sonuc_tablosu": [
+    {
+      "Model": "XGBoost",
+      "Accuracy": 0.8609083536090836,
+      "Precision": 0.5323383084577115,
+      "Recall": 0.8403141361256544,
+      "F1": 0.6517766497461929,
+      "ROC_AUC": 0.9301949030760419
+    },
+    {
+      "Model": "Karar Ağacı",
+      "Accuracy": 0.8288726682887266,
+      "Precision": 0.47101449275362317,
+      "Recall": 0.8507853403141361,
+      "F1": 0.6063432835820896,
+      "ROC_AUC": 0.91884691139673
+    },
+    {
+      "Model": "KNN",
+      "Accuracy": 0.8718572587185726,
+      "Precision": 0.7844827586206896,
+      "Recall": 0.23821989528795812,
+      "F1": 0.3654618473895582,
+      "ROC_AUC": 0.8649081508576941
+    }
+  ],
+  "dtreeviz_basarili": false
+}

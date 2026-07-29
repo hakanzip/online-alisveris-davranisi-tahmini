@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1,ROC_AUC,CV_ROC_AUC,En_Iyi_Parametreler
+XGBoost,0.8609083536090836,0.5323383084577115,0.8403141361256544,0.6517766497461929,0.9301949030760419,0.9346095719562788,"{'model__subsample': 0.7, 'model__scale_pos_weight': np.float64(5.463958060288335), 'model__n_estimators': 400, 'model__max_depth': 4, 'model__learning_rate': 0.01, 'model__colsample_bytree': 0.8}"
+Karar Ağacı,0.8288726682887266,0.47101449275362317,0.8507853403141361,0.6063432835820896,0.91884691139673,0.9233919930434084,"{'model__min_samples_split': 5, 'model__min_samples_leaf': 20, 'model__max_depth': 6, 'model__criterion': 'entropy', 'model__class_weight': 'balanced'}"
+KNN,0.8718572587185726,0.7844827586206896,0.23821989528795812,0.3654618473895582,0.8649081508576941,0.8774917868917609,"{'model__weights': 'distance', 'model__p': 1, 'model__n_neighbors': 31}"
